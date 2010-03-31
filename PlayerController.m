@@ -22,11 +22,13 @@
 	// pass file to player and start playback
 	[player playFile:path];
 	
+	[stopButton setNextState];
 	
 }
 
 - (IBAction)stop:(id)sender {
 	[player stop];
+	[startButton setNextState];
 }
 
 - (IBAction)setVol:(id)sender {

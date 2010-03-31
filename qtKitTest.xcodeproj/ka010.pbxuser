@@ -188,6 +188,13 @@
 			4EA7103B1162D8A50034980C /* PBXTextBookmark */ = 4EA7103B1162D8A50034980C /* PBXTextBookmark */;
 			4EA7103C1162D8A50034980C /* PBXTextBookmark */ = 4EA7103C1162D8A50034980C /* PBXTextBookmark */;
 			4EA7103D1162D8A50034980C /* PBXTextBookmark */ = 4EA7103D1162D8A50034980C /* PBXTextBookmark */;
+			4EA710571162DEE20034980C /* PBXTextBookmark */ = 4EA710571162DEE20034980C /* PBXTextBookmark */;
+			4EA710581162DEE20034980C /* PBXTextBookmark */ = 4EA710581162DEE20034980C /* PBXTextBookmark */;
+			4EA710591162DEE20034980C /* PBXTextBookmark */ = 4EA710591162DEE20034980C /* PBXTextBookmark */;
+			4EA7105A1162DEE20034980C /* PBXTextBookmark */ = 4EA7105A1162DEE20034980C /* PBXTextBookmark */;
+			4EA7105B1162DEE20034980C /* PBXTextBookmark */ = 4EA7105B1162DEE20034980C /* PBXTextBookmark */;
+			4EA7105D1162DF550034980C /* PBXTextBookmark */ = 4EA7105D1162DF550034980C /* PBXTextBookmark */;
+			4EA7105E1162DF970034980C /* PBXTextBookmark */ = 4EA7105E1162DF970034980C /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4EA70F601162CB070034980C /* Source Control */;
 		userBuildSettings = {
@@ -565,15 +572,15 @@
 	4EA70FB91162CED50034980C /* PlayerController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1599, 693}}";
-			sepNavSelRange = "{386, 0}";
-			sepNavVisRange = "{0, 392}";
+			sepNavSelRange = "{358, 0}";
+			sepNavVisRange = "{0, 457}";
 		};
 	};
 	4EA70FBA1162CED50034980C /* PlayerController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1599, 693}}";
-			sepNavSelRange = "{562, 0}";
-			sepNavVisRange = "{0, 571}";
+			sepNavSelRange = "{445, 0}";
+			sepNavVisRange = "{0, 628}";
 		};
 	};
 	4EA70FC51162D2000034980C /* PBXTextBookmark */ = {
@@ -591,7 +598,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 20";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 335;
 		vrLoc = 0;
@@ -631,7 +638,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 16";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 0;
@@ -641,7 +648,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 16";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 263;
 		vrLoc = 0;
@@ -651,7 +658,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 15";
 		rLen = 0;
-		rLoc = 293;
+		rLoc = 358;
 		rType = 0;
 		vrLen = 282;
 		vrLoc = 0;
@@ -661,7 +668,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 16";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 263;
 		vrLoc = 0;
@@ -671,7 +678,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 15";
 		rLen = 0;
-		rLoc = 293;
+		rLoc = 358;
 		rType = 0;
 		vrLen = 282;
 		vrLoc = 0;
@@ -681,7 +688,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 16";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 263;
 		vrLoc = 0;
@@ -701,7 +708,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 20";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 335;
 		vrLoc = 0;
@@ -791,7 +798,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 22";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 371;
 		vrLoc = 0;
@@ -801,7 +808,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 22";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 372;
 		vrLoc = 0;
@@ -811,7 +818,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 22";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 373;
 		vrLoc = 0;
@@ -921,7 +928,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 22";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 368;
 		vrLoc = 0;
@@ -981,7 +988,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 27";
 		rLen = 0;
-		rLoc = 468;
+		rLoc = 525;
 		rType = 0;
 		vrLen = 419;
 		vrLoc = 0;
@@ -991,7 +998,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1091,7 +1098,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1101,7 +1108,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 27";
 		rLen = 0;
-		rLoc = 468;
+		rLoc = 525;
 		rType = 0;
 		vrLen = 419;
 		vrLoc = 0;
@@ -1111,7 +1118,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1141,7 +1148,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1151,7 +1158,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 27";
 		rLen = 0;
-		rLoc = 468;
+		rLoc = 525;
 		rType = 0;
 		vrLen = 419;
 		vrLoc = 0;
@@ -1181,7 +1188,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1191,7 +1198,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 27";
 		rLen = 0;
-		rLoc = 468;
+		rLoc = 525;
 		rType = 0;
 		vrLen = 419;
 		vrLoc = 0;
@@ -1231,7 +1238,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1251,7 +1258,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1271,7 +1278,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1281,7 +1288,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 22";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 447;
 		rType = 0;
 		vrLen = 419;
 		vrLoc = 0;
@@ -1291,7 +1298,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1321,7 +1328,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1351,7 +1358,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1371,7 +1378,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 19";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 329;
 		vrLoc = 0;
@@ -1421,7 +1428,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 22";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 392;
 		vrLoc = 0;
@@ -1431,7 +1438,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 33";
 		rLen = 0;
-		rLoc = 505;
+		rLoc = 562;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 0;
@@ -1501,7 +1508,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 20";
 		rLen = 0;
-		rLoc = 357;
+		rLoc = 422;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 0;
@@ -1511,7 +1518,7 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 33";
 		rLen = 0;
-		rLoc = 505;
+		rLoc = 562;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 0;
@@ -1521,7 +1528,7 @@
 		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
 		name = "PlayerController.h: 22";
 		rLen = 0;
-		rLoc = 386;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 392;
 		vrLoc = 0;
@@ -1531,9 +1538,79 @@
 		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
 		name = "PlayerController.m: 34";
 		rLen = 0;
-		rLoc = 562;
+		rLoc = 619;
 		rType = 0;
 		vrLen = 571;
+		vrLoc = 0;
+	};
+	4EA710571162DEE20034980C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
+		name = "PlayerController.h: 18";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 0;
+	};
+	4EA710581162DEE20034980C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
+		name = "PlayerController.m: 30";
+		rLen = 0;
+		rLoc = 524;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	4EA710591162DEE20034980C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
+		name = "PlayerController.m: 30";
+		rLen = 0;
+		rLoc = 524;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	4EA7105A1162DEE20034980C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4EA70FB91162CED50034980C /* PlayerController.h */;
+		name = "PlayerController.h: 18";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 0;
+	};
+	4EA7105B1162DEE20034980C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
+		name = "PlayerController.m: 30";
+		rLen = 0;
+		rLoc = 525;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	4EA7105D1162DF550034980C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
+		name = "PlayerController.m: 30";
+		rLen = 0;
+		rLoc = 523;
+		rType = 0;
+		vrLen = 600;
+		vrLoc = 0;
+	};
+	4EA7105E1162DF970034980C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4EA70FBA1162CED50034980C /* PlayerController.m */;
+		name = "PlayerController.m: 25";
+		rLen = 0;
+		rLoc = 445;
+		rType = 0;
+		vrLen = 628;
 		vrLoc = 0;
 	};
 	8D1107260486CEB800E47090 /* qtKitTest */ = {

@@ -14,6 +14,8 @@
 	
 	IBOutlet NSTextField *pathField;
 	IBOutlet NSSlider *volSlider;
+	IBOutlet NSButton *stopButton;
+	IBOutlet NSButton *startButton;
 }
 
 - (IBAction)play:(id)sender;

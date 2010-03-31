@@ -298,7 +298,7 @@
 							<real>238</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 60 1920 998 0 0 1920 1058 </string>
+						<string>-1 60 1920 998 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -328,13 +328,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4EA7103D1162D8A50034980C</string>
+										<string>4EA7105E1162DF970034980C</string>
 										<key>history</key>
 										<array>
 											<string>4EA710301162D8A50034980C</string>
 											<string>4EA710311162D8A50034980C</string>
-											<string>4EA710321162D8A50034980C</string>
-											<string>4EA710331162D8A50034980C</string>
+											<string>4EA710571162DEE20034980C</string>
+											<string>4EA710581162DEE20034980C</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -406,6 +406,8 @@
 											<string>4EA7103A1162D8A50034980C</string>
 											<string>4EA7103B1162D8A50034980C</string>
 											<string>4EA7103C1162D8A50034980C</string>
+											<string>4EA710591162DEE20034980C</string>
+											<string>4EA7105A1162DEE20034980C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -419,7 +421,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1660, 725}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 60 1920 998 0 0 1920 1058 </string>
+								<string>-1 60 1920 998 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -439,7 +441,7 @@
 								<key>Frame</key>
 								<string>{{0, 730}, {1660, 228}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 60 1920 998 0 0 1920 1058 </string>
+								<string>-1 60 1920 998 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -607,7 +609,7 @@
 		<string>/Volumes/DEV/workspace/objc/qtKitTest/qtKitTest.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 60 1920 998 0 0 1920 1058 </string>
+	<string>-1 60 1920 998 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

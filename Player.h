@@ -18,6 +18,8 @@
 
 @property(readwrite) NSString *currentFile;
 
+- (void)playList:(NSArray *)list;
+
 - (void)playFile: (NSString *)file;
 
 - (void)play;

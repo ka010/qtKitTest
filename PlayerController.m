@@ -6,34 +6,70 @@
 //  Copyright 2010 HdM. All rights reserved.
 //
 
+#import "DragDropTableView.h"
 #import "PlayerController.h"
+
 
 @implementation PlayerController
 
-- (IBAction)play:(id)sender {
-	NSString *path;
+- (void) awakeFromNib {
+	
+	filenames = [[NSMutableArray alloc] init];
+	[fileTable setDoubleAction:@selector(play:)];
+	[fileTable setTarget:self];
 	
 	// init player 
 	player = [[Player alloc]init];
-    
-	// get file to play
-	path = [pathField stringValue];
+}
+
+- (void) acceptFilenameDrag:(NSString *) filename {
+		
+	[arrayController addObject:filename];
 	
+}
+
+- (IBAction)play:(id)sender {
+	    
+	NSArray *selection = [arrayController selectedObjects];
+	NSString *path = [selection objectAtIndex:0];
+		
 	// pass file to player and start playback
 	[player playFile:path];
 	
-	[stopButton setNextState];
+	NSArray *splittedPath =  [path componentsSeparatedByString:@"/"];
+	NSString * filename = [splittedPath objectAtIndex:[splittedPath count]-1];
+	[pathField setStringValue:filename];
 	
+}
+
+- (IBAction)next:(id)sender {
+	[arrayController setSelectionIndex:[arrayController selectionIndex]+1];
+
+	[self play:self];
+	
+//	NSLog(@"selection: = %@",[arrayController selectedObjects]);
+	
+}
+
+- (IBAction)prev:(id)sender {
+	[arrayController setSelectionIndex:[arrayController selectionIndex]-1];
+	
+	[self play:self];
+	//NSLog(@"selection: = %@",[arrayController selectedObjects]);
+
 }
 
 - (IBAction)stop:(id)sender {
 	[player stop];
 	[startButton setNextState];
+	
 }
 
 - (IBAction)setVol:(id)sender {
 	float vol = [volSlider floatValue];
 	[player setVol:vol];
 }
+
+
 
 @end

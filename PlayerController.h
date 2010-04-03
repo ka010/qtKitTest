@@ -8,9 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 #import "Player.h"
+#import "tagReader.h"
 
 @interface PlayerController : NSObject {
 	Player *player;
+	tagReader *tagRdr;
 	
 	NSMutableArray *filenames;
 	

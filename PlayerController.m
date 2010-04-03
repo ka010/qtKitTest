@@ -17,9 +17,12 @@
 	filenames = [[NSMutableArray alloc] init];
 	[fileTable setDoubleAction:@selector(play:)];
 	[fileTable setTarget:self];
-	
+
 	// init player 
 	player = [[Player alloc]init];
+	
+	// init tagReader
+	tagRdr = [[tagReader alloc]init];
 }
 
 - (void) acceptFilenameDrag:(NSString *) filename {
@@ -36,10 +39,20 @@
 	// pass file to player and start playback
 	[player playFile:path];
 	
-	NSArray *splittedPath =  [path componentsSeparatedByString:@"/"];
-	NSString * filename = [splittedPath objectAtIndex:[splittedPath count]-1];
-	[pathField setStringValue:filename];
+//	NSArray *splittedPath =  [path componentsSeparatedByString:@"/"];
+//	NSString * filename = [splittedPath objectAtIndex:[splittedPath count]-1];
 	
+	[tagRdr initWithFile:path];
+	
+	NSString *title = [tagRdr title];
+	title = [title stringByAppendingString:@" - "];
+	title = [title stringByAppendingString:[tagRdr artist]];
+	title = [title stringByAppendingString:@" - "];
+	title = [title stringByAppendingString:[tagRdr album]];
+	
+	NSLog(@"tag: = %@ ", title);
+	[pathField setStringValue:title];
+
 }
 
 - (IBAction)next:(id)sender {

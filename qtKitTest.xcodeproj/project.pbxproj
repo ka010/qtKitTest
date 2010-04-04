@@ -9,15 +9,26 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		4E13C68F1166BB0500BF1E0F /* DragDropTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E13C68E1166BB0500BF1E0F /* DragDropTableView.m */; };
+		4E7425971168CF05005D668E /* TagLibKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7425961168CF05005D668E /* TagLibKit.framework */; };
 		4EA70F631162CB3F0034980C /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA70F621162CB3F0034980C /* QTKit.framework */; };
 		4EA70F661162CB520034980C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA70F651162CB520034980C /* Player.m */; };
 		4EA70FBB1162CED50034980C /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA70FBA1162CED50034980C /* PlayerController.m */; };
-		4ECAD95411679EC5004731AB /* tagReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ECAD95311679EC5004731AB /* tagReader.mm */; };
-		4ECAD9ED1167ACA7004731AB /* libtag_c.0.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECAD9EC1167ACA7004731AB /* libtag_c.0.0.0.dylib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E7424B511684354005D668E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -30,14 +41,12 @@
 		32CA4F630368D1EE00C91783 /* qtKitTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qtKitTest_Prefix.pch; sourceTree = "<group>"; };
 		4E13C68D1166BB0500BF1E0F /* DragDropTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropTableView.h; sourceTree = "<group>"; };
 		4E13C68E1166BB0500BF1E0F /* DragDropTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropTableView.m; sourceTree = "<group>"; };
+		4E7425961168CF05005D668E /* TagLibKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TagLibKit.framework; path = ../TagLibKit/build/Release/TagLibKit.framework; sourceTree = SOURCE_ROOT; };
 		4EA70F621162CB3F0034980C /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		4EA70F641162CB520034980C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		4EA70F651162CB520034980C /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		4EA70FB91162CED50034980C /* PlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerController.h; sourceTree = "<group>"; };
 		4EA70FBA1162CED50034980C /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
-		4ECAD95211679EC5004731AB /* tagReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tagReader.h; sourceTree = "<group>"; };
-		4ECAD95311679EC5004731AB /* tagReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = tagReader.mm; sourceTree = "<group>"; };
-		4ECAD9EC1167ACA7004731AB /* libtag_c.0.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtag_c.0.0.0.dylib; path = /usr/local/lib/libtag_c.0.0.0.dylib; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* qtKitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qtKitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -49,7 +58,7 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				4EA70F631162CB3F0034980C /* QTKit.framework in Frameworks */,
-				4ECAD9ED1167ACA7004731AB /* libtag_c.0.0.0.dylib in Frameworks */,
+				4E7425971168CF05005D668E /* TagLibKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,8 +74,6 @@
 				4EA70FBA1162CED50034980C /* PlayerController.m */,
 				4E13C68D1166BB0500BF1E0F /* DragDropTableView.h */,
 				4E13C68E1166BB0500BF1E0F /* DragDropTableView.m */,
-				4ECAD95211679EC5004731AB /* tagReader.h */,
-				4ECAD95311679EC5004731AB /* tagReader.mm */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -74,6 +81,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E7425961168CF05005D668E /* TagLibKit.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -131,7 +139,6 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4ECAD9EC1167ACA7004731AB /* libtag_c.0.0.0.dylib */,
 				4EA70F621162CB3F0034980C /* QTKit.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
@@ -149,6 +156,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				4E7424B511684354005D668E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -198,7 +206,6 @@
 				4EA70F661162CB520034980C /* Player.m in Sources */,
 				4EA70FBB1162CED50034980C /* PlayerController.m in Sources */,
 				4E13C68F1166BB0500BF1E0F /* DragDropTableView.m in Sources */,
-				4ECAD95411679EC5004731AB /* tagReader.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +236,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../frmwrkTest/build/Debug\"",
+					/Users/ka010/Downloads/Applications/Example/build/Debug,
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../TagLibKit/build/Release\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -248,6 +262,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../frmwrkTest/build/Debug\"",
+					/Users/ka010/Downloads/Applications/Example/build/Debug,
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../TagLibKit/build/Release\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = qtKitTest_Prefix.pch;

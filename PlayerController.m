@@ -21,8 +21,8 @@
 	// init player 
 	player = [[Player alloc]init];
 	
-	// init tagReader
-	tagRdr = [[tagReader alloc]init];
+	// init TagLib
+	tagLibWrapper = [[tagLib alloc]init];
 }
 
 - (void) acceptFilenameDrag:(NSString *) filename {
@@ -42,15 +42,20 @@
 //	NSArray *splittedPath =  [path componentsSeparatedByString:@"/"];
 //	NSString * filename = [splittedPath objectAtIndex:[splittedPath count]-1];
 	
-	[tagRdr initWithFile:path];
+	// init taglib with file
+	[tagLibWrapper initWithFile:path];
 	
-	NSString *title = [tagRdr title];
+	// build now-playing string
+	NSString *title = [tagLibWrapper title];
 	title = [title stringByAppendingString:@" - "];
-	title = [title stringByAppendingString:[tagRdr artist]];
+	title = [title stringByAppendingString:[tagLibWrapper artist]];
 	title = [title stringByAppendingString:@" - "];
-	title = [title stringByAppendingString:[tagRdr album]];
+	title = [title stringByAppendingString:[tagLibWrapper album]];
 	
-	NSLog(@"tag: = %@ ", title);
+	// log the entire tag to console 
+	[tagLibWrapper log];
+	
+	// display tag in now-playing field 	
 	[pathField setStringValue:title];
 
 }

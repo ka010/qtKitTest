@@ -1,16 +1,15 @@
 //
-//  TagTransformer.m
+//  TitleTransformer.m
 //  qtKitTest
 //
 //  Created by ka010 on 4/5/10.
 //  Copyright 2010 HdM. All rights reserved.
 //
 
-#import "TagTransformer.h"
+#import "TitleTransformer.h"
 
 
-@implementation TagTransformer
-
+@implementation TitleTransformer
 +(Class)transformedValueClass {
 	return [NSString class];
 }
@@ -20,9 +19,8 @@
 }
 
 - (NSString *)transformedValue:(PlaybackItem *)item {
-	NSString *path = [NSString stringWithFormat:@"%@", [[item tag]track]];
+
+	NSString *path = [[item tag]title];
 	return path;
 }
-
-
 @end

@@ -21,20 +21,22 @@
 	// init player 
 	player = [[Player alloc]init];
 	
-	// init tagReader
-	tagLibWrapper = [[tagLib alloc]init];
-	
 }
 
 - (void) acceptFilenameDrag:(NSString *) filename {
 		
+	// create a tag-object for the dragged file
 	tagLib *tag = [[tagLib alloc]init];
 	[tag initWithFile:filename];
 
+	// create and PlaybackItem
 	PlaybackItem *item = [[PlaybackItem alloc]init];
+	
+	// init PlaybackItem with filename and tag
 	[item setPath:filename];
 	[item setTag:tag];
 
+	// add PlaybackItem to arrayController
 	[arrayController addObject:item];
 	
 	
@@ -43,13 +45,17 @@
 - (IBAction)play:(id)sender {
 	    
 	NSArray *selection = [arrayController selectedObjects];
+
+	// get selected PlaybackItem
 	PlaybackItem *item = [selection objectAtIndex:0];
-	NSString *p = [item path];
-	NSLog(@"path: = %@" ,p);
 	
-	// pass file to player and start playback
+	// retrieve filepath from PlaybackItem
+	NSString *p = [item path];
+	
+	// pass filepath to player and start playback
 	[player playFile:p];
 	
+	// retrieve tag from PlaybackItem
 	tagLib *tag = [item tag];
 	
 	// build now-playing string
@@ -72,15 +78,12 @@
 
 	[self play:self];
 	
-//	NSLog(@"selection: = %@",[arrayController selectedObjects]);
-	
 }
 
 - (IBAction)prev:(id)sender {
 	[arrayController setSelectionIndex:[arrayController selectionIndex]-1];
 	
 	[self play:self];
-	//NSLog(@"selection: = %@",[arrayController selectedObjects]);
 
 }
 

@@ -13,7 +13,6 @@
 
 @interface PlayerController : NSObject {
 	Player *player;
-	tagLib *tagLibWrapper;
 	
 	NSMutableArray *filenames;
 	

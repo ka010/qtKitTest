@@ -1,16 +1,15 @@
 //
-//  TagTransformer.m
+//  AlbumTransformer.m
 //  qtKitTest
 //
 //  Created by ka010 on 4/5/10.
 //  Copyright 2010 HdM. All rights reserved.
 //
 
-#import "TagTransformer.h"
+#import "AlbumTransformer.h"
 
 
-@implementation TagTransformer
-
+@implementation AlbumTransformer
 +(Class)transformedValueClass {
 	return [NSString class];
 }
@@ -20,9 +19,8 @@
 }
 
 - (NSString *)transformedValue:(PlaybackItem *)item {
-	NSString *path = [NSString stringWithFormat:@"%@", [[item tag]track]];
+
+	NSString *path = [[item tag]album];
 	return path;
 }
-
-
 @end

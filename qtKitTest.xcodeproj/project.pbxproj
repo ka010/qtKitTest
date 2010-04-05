@@ -12,6 +12,9 @@
 		4E13C68F1166BB0500BF1E0F /* DragDropTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E13C68E1166BB0500BF1E0F /* DragDropTableView.m */; };
 		4E246202116985D7008B9BDB /* PlaybackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E246201116985D7008B9BDB /* PlaybackItem.m */; };
 		4E24623A11698B92008B9BDB /* TagTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24623911698B92008B9BDB /* TagTransformer.m */; };
+		4E9108AA116A404F00C039A9 /* AlbumTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9108A9116A404F00C039A9 /* AlbumTransformer.m */; };
+		4E9108B2116A40C800C039A9 /* TitleTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9108B1116A40C800C039A9 /* TitleTransformer.m */; };
+		4E9108D7116A42F000C039A9 /* ArtistTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9108D6116A42F000C039A9 /* ArtistTransformer.m */; };
 		4EA70F631162CB3F0034980C /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA70F621162CB3F0034980C /* QTKit.framework */; };
 		4EA70F661162CB520034980C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA70F651162CB520034980C /* Player.m */; };
 		4EA70FBB1162CED50034980C /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA70FBA1162CED50034980C /* PlayerController.m */; };
@@ -48,6 +51,12 @@
 		4E246201116985D7008B9BDB /* PlaybackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaybackItem.m; sourceTree = "<group>"; };
 		4E24623811698B92008B9BDB /* TagTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagTransformer.h; sourceTree = "<group>"; };
 		4E24623911698B92008B9BDB /* TagTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagTransformer.m; sourceTree = "<group>"; };
+		4E9108A8116A404F00C039A9 /* AlbumTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTransformer.h; sourceTree = "<group>"; };
+		4E9108A9116A404F00C039A9 /* AlbumTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTransformer.m; sourceTree = "<group>"; };
+		4E9108B0116A40C800C039A9 /* TitleTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleTransformer.h; sourceTree = "<group>"; };
+		4E9108B1116A40C800C039A9 /* TitleTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleTransformer.m; sourceTree = "<group>"; };
+		4E9108D5116A42F000C039A9 /* ArtistTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistTransformer.h; sourceTree = "<group>"; };
+		4E9108D6116A42F000C039A9 /* ArtistTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistTransformer.m; sourceTree = "<group>"; };
 		4EA70F621162CB3F0034980C /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		4EA70F641162CB520034980C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		4EA70F651162CB520034980C /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
@@ -83,7 +92,13 @@
 				4E246200116985D7008B9BDB /* PlaybackItem.h */,
 				4E246201116985D7008B9BDB /* PlaybackItem.m */,
 				4E24623811698B92008B9BDB /* TagTransformer.h */,
+				4E9108B0116A40C800C039A9 /* TitleTransformer.h */,
+				4E9108B1116A40C800C039A9 /* TitleTransformer.m */,
 				4E24623911698B92008B9BDB /* TagTransformer.m */,
+				4E9108D5116A42F000C039A9 /* ArtistTransformer.h */,
+				4E9108D6116A42F000C039A9 /* ArtistTransformer.m */,
+				4E9108A8116A404F00C039A9 /* AlbumTransformer.h */,
+				4E9108A9116A404F00C039A9 /* AlbumTransformer.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -218,6 +233,9 @@
 				4E13C68F1166BB0500BF1E0F /* DragDropTableView.m in Sources */,
 				4E246202116985D7008B9BDB /* PlaybackItem.m in Sources */,
 				4E24623A11698B92008B9BDB /* TagTransformer.m in Sources */,
+				4E9108AA116A404F00C039A9 /* AlbumTransformer.m in Sources */,
+				4E9108B2116A40C800C039A9 /* TitleTransformer.m in Sources */,
+				4E9108D7116A42F000C039A9 /* ArtistTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

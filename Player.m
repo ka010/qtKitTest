@@ -53,4 +53,25 @@
 	[self.audio setVolume:volume];
 }
 
+
+
+-(NSNumber *)duration {
+	
+	QTTime dur = [audio duration];
+	return [NSNumber numberWithLong:dur.timeValue/dur.timeScale];
+}
+
+-(NSNumber *)currentTime {
+	
+	QTTime currentTime = [audio currentTime];
+	return [NSNumber numberWithLong:currentTime.timeValue/currentTime.timeScale];
+}
+
+
+-(NSNumber *)currentPosition {
+	NSNumber *currentTime = [self currentTime];
+	NSNumber *duration = [self duration];
+	return [NSNumber numberWithFloat:[duration floatValue] - ([duration floatValue] - [currentTime floatValue])];
+	
+}
 @end

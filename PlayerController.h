@@ -19,10 +19,11 @@
 	IBOutlet NSArrayController *arrayController;
 	
 	IBOutlet NSTextField *pathField;
-	IBOutlet NSSlider *volSlider;
+	IBOutlet NSLevelIndicator *volSlider;
 	IBOutlet NSButton *stopButton;
 	IBOutlet NSButton *startButton;
 	IBOutlet DragDropTableView *fileTable;
+	IBOutlet NSLevelIndicator *positionBar;
 }
 
 - (IBAction)play:(id)sender;

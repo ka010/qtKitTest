@@ -28,4 +28,9 @@
 
 - (void)setVol:(float)volume;
 
+-(NSNumber *)duration;
+
+- (NSNumber *)currentTime;
+
+- (NSNumber *)currentPosition;
 @end

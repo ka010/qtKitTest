@@ -75,7 +75,9 @@
 
 - (IBAction)next:(id)sender {
 	[arrayController setSelectionIndex:[arrayController selectionIndex]+1];
-
+	NSLog(@"time: = %@", [player currentTime]);
+	NSLog(@"dur: = %@", [player duration]);
+	NSLog(@"cur: = %@", [player currentPosition]);
 	[self play:self];
 	
 }

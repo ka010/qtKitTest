@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		4E02B55511699AAB0098471F /* TagLibKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E02B55411699AAB0098471F /* TagLibKit.framework */; };
 		4E13C68F1166BB0500BF1E0F /* DragDropTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E13C68E1166BB0500BF1E0F /* DragDropTableView.m */; };
-		4E7425971168CF05005D668E /* TagLibKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7425961168CF05005D668E /* TagLibKit.framework */; };
+		4E246202116985D7008B9BDB /* PlaybackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E246201116985D7008B9BDB /* PlaybackItem.m */; };
+		4E24623A11698B92008B9BDB /* TagTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24623911698B92008B9BDB /* TagTransformer.m */; };
 		4EA70F631162CB3F0034980C /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA70F621162CB3F0034980C /* QTKit.framework */; };
 		4EA70F661162CB520034980C /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA70F651162CB520034980C /* Player.m */; };
 		4EA70FBB1162CED50034980C /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA70FBA1162CED50034980C /* PlayerController.m */; };
@@ -39,9 +41,13 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* qtKitTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qtKitTest_Prefix.pch; sourceTree = "<group>"; };
+		4E02B55411699AAB0098471F /* TagLibKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TagLibKit.framework; path = /Library/Frameworks/TagLibKit.framework; sourceTree = "<absolute>"; };
 		4E13C68D1166BB0500BF1E0F /* DragDropTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropTableView.h; sourceTree = "<group>"; };
 		4E13C68E1166BB0500BF1E0F /* DragDropTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropTableView.m; sourceTree = "<group>"; };
-		4E7425961168CF05005D668E /* TagLibKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TagLibKit.framework; path = ../TagLibKit/build/Release/TagLibKit.framework; sourceTree = SOURCE_ROOT; };
+		4E246200116985D7008B9BDB /* PlaybackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaybackItem.h; sourceTree = "<group>"; };
+		4E246201116985D7008B9BDB /* PlaybackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaybackItem.m; sourceTree = "<group>"; };
+		4E24623811698B92008B9BDB /* TagTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagTransformer.h; sourceTree = "<group>"; };
+		4E24623911698B92008B9BDB /* TagTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagTransformer.m; sourceTree = "<group>"; };
 		4EA70F621162CB3F0034980C /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		4EA70F641162CB520034980C /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		4EA70F651162CB520034980C /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
@@ -58,7 +64,7 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				4EA70F631162CB3F0034980C /* QTKit.framework in Frameworks */,
-				4E7425971168CF05005D668E /* TagLibKit.framework in Frameworks */,
+				4E02B55511699AAB0098471F /* TagLibKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +80,10 @@
 				4EA70FBA1162CED50034980C /* PlayerController.m */,
 				4E13C68D1166BB0500BF1E0F /* DragDropTableView.h */,
 				4E13C68E1166BB0500BF1E0F /* DragDropTableView.m */,
+				4E246200116985D7008B9BDB /* PlaybackItem.h */,
+				4E246201116985D7008B9BDB /* PlaybackItem.m */,
+				4E24623811698B92008B9BDB /* TagTransformer.h */,
+				4E24623911698B92008B9BDB /* TagTransformer.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -81,7 +91,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E7425961168CF05005D668E /* TagLibKit.framework */,
+				4E02B55411699AAB0098471F /* TagLibKit.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -206,6 +216,8 @@
 				4EA70F661162CB520034980C /* Player.m in Sources */,
 				4EA70FBB1162CED50034980C /* PlayerController.m in Sources */,
 				4E13C68F1166BB0500BF1E0F /* DragDropTableView.m in Sources */,
+				4E246202116985D7008B9BDB /* PlaybackItem.m in Sources */,
+				4E24623A11698B92008B9BDB /* TagTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +257,7 @@
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

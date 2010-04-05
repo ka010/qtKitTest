@@ -21,39 +21,46 @@
 	// init player 
 	player = [[Player alloc]init];
 	
-	// init TagLib
+	// init tagReader
 	tagLibWrapper = [[tagLib alloc]init];
+	
 }
 
 - (void) acceptFilenameDrag:(NSString *) filename {
 		
-	[arrayController addObject:filename];
+	tagLib *tag = [[tagLib alloc]init];
+	[tag initWithFile:filename];
+
+	PlaybackItem *item = [[PlaybackItem alloc]init];
+	[item setPath:filename];
+	[item setTag:tag];
+
+	[arrayController addObject:item];
+	
 	
 }
 
 - (IBAction)play:(id)sender {
 	    
 	NSArray *selection = [arrayController selectedObjects];
-	NSString *path = [selection objectAtIndex:0];
-		
+	PlaybackItem *item = [selection objectAtIndex:0];
+	NSString *p = [item path];
+	NSLog(@"path: = %@" ,p);
+	
 	// pass file to player and start playback
-	[player playFile:path];
+	[player playFile:p];
 	
-//	NSArray *splittedPath =  [path componentsSeparatedByString:@"/"];
-//	NSString * filename = [splittedPath objectAtIndex:[splittedPath count]-1];
-	
-	// init taglib with file
-	[tagLibWrapper initWithFile:path];
+	tagLib *tag = [item tag];
 	
 	// build now-playing string
-	NSString *title = [tagLibWrapper title];
+	NSString *title = [tag artist];
 	title = [title stringByAppendingString:@" - "];
-	title = [title stringByAppendingString:[tagLibWrapper artist]];
+	title = [title stringByAppendingString:[tag title]];
 	title = [title stringByAppendingString:@" - "];
-	title = [title stringByAppendingString:[tagLibWrapper album]];
+	title = [title stringByAppendingString:[tag album]];
 	
 	// log the entire tag to console 
-	[tagLibWrapper log];
+	[[item tag]log];
 	
 	// display tag in now-playing field 	
 	[pathField setStringValue:title];

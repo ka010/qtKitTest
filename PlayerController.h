@@ -8,7 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 #import "Player.h"
-#import "tagLib.h"
+#import <TagLibKit/tagLib.h>
+#import "PlaybackItem.h"
 
 @interface PlayerController : NSObject {
 	Player *player;
